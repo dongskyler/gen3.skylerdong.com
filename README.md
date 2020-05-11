@@ -5,6 +5,7 @@ Website: [https://skylerdong.com](https://skylerdong.com)
 Working repo: [https://github.com/dongskyler/skylerdong.com-gen3](https://github.com/dongskyler/skylerdong.com-gen3)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/dongskyler/skylerdong.com-gen3/badge)](https://www.codefactor.io/repository/github/dongskyler/skylerdong.com-gen3)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 ***
 
