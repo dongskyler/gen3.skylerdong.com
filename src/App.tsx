@@ -11,6 +11,9 @@ function App() {
         <p>
           I&apos;m currently building the 3rd generation of my personal website, with React, Sass, Node, Express, MongoDB and TypeScript.
         </p>
+        <p>
+          I just finished setting up my server (VPS). It runs on CentOS 8 and Nginx.
+        </p>
       </header>
       <body>
         <div>
@@ -25,7 +28,7 @@ function App() {
             </h3>
           </a>
           <p>
-            Established in early 2020. Built with HTML, Sass, Bootstrap 4, vanilla JavaScript, JQuery, PHP and MySQL.
+            Established in early 2020. Built with HTML, Sass, Bootstrap 4, JQuery, vanilla PHP and MySQL.
           </p>
         </div>
         <div>
