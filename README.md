@@ -4,6 +4,8 @@ Website: [https://skylerdong.com](https://skylerdong.com)
 
 Working repo: [https://github.com/dongskyler/skylerdong.com-gen3](https://github.com/dongskyler/skylerdong.com-gen3)
 
+[![CodeFactor](https://www.codefactor.io/repository/github/dongskyler/skylerdong.com-gen3/badge)](https://www.codefactor.io/repository/github/dongskyler/skylerdong.com-gen3)
+
 ***
 
 ## Description
