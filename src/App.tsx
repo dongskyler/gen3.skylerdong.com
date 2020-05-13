@@ -68,7 +68,9 @@ class App extends Component {
               Established in 2015. Built with Google Site templates.
               </p>
           </div>
-          Render the newly fetched data inside of this.state.data :
+          <h3>
+            Render the newly fetched data inside of this.state.data :
+          </h3>
           <p className="App-intro">{this.state.data}</p>
         </body>
       </div>
