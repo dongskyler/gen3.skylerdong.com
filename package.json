@@ -78,7 +78,8 @@
   },
   "lint-staged": {
     "./src/**/*.{js,jsx,ts,tsx,scss}": [
-      "npx prettier --write"
+      "prettier --write",
+      "eslint './src/**/*.{js,jsx,ts,tsx}' --quiet --fix"
     ]
   }
 }
