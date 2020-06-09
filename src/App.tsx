@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img_architecture from "./architecture.svg";
+import img_architecture from "./architecture_diagram.svg";
 import "./scss/App.scss";
 
 class App extends Component {
