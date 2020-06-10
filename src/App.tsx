@@ -31,7 +31,7 @@ class App extends Component {
         <header className="App-header">
           <div>Skyler Dong</div>
         </header>
-        <body className="main-content">
+        <div className="main-content">
           <p>
             I&apos;m currently building the 3rd generation of my personal
             website, built with React, Node, Express, GraphQL, Amazon S3 bucket
@@ -83,7 +83,7 @@ class App extends Component {
           </div>
           {/* <h3>Render the newly fetched data inside of this.state.data :</h3> */}
           {/* <p className="App-intro">{this.state.data}</p> */}
-        </body>
+        </div>
       </div>
     );
   }
