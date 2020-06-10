@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import img_architecture from "./architecture_diagram.svg";
+import img_architecture_gen3 from "./architecture_gen3.svg";
+import img_architecture_gen2 from "./architecture_gen2.svg";
 import "./scss/App.scss";
 
 class App extends Component {
@@ -38,9 +39,9 @@ class App extends Component {
           </p>
           <div>
             <img
-              src={img_architecture}
+              src={img_architecture_gen3}
               className="img-full"
-              alt="architecture"
+              alt="architecture gen3"
             />
           </div>
           <div>
@@ -59,6 +60,13 @@ class App extends Component {
                   Established in early 2020. Built with HTML, Sass, Bootstrap 4,
                   JQuery, vanilla PHP and MySQL.
                 </p>
+                <div>
+                  <img
+                    src={img_architecture_gen2}
+                    className="img-full"
+                    alt="architecture gen2"
+                  />
+                </div>
               </li>
               <li>
                 <a
