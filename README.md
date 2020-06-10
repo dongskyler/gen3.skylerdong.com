@@ -27,7 +27,6 @@ Visit the [1st generation of my website](https://gen1.skylerdong.com/), which wa
 ## Architecture
 
 ![Architecture](./src/architecture_gen3.svg)
-<img src="./src/architecture_gen3.svg">
 
 ***
 
