@@ -71,7 +71,7 @@ class App extends Component {
               <li>
                 <a
                   className="App-link"
-                  href="https://sites.google.com/site/tiannongsdong/"
+                  href="https://gen1.skylerdong.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
