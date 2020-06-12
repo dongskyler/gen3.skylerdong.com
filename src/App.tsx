@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import img_architecture_gen3 from "./architecture_gen3.svg";
-import img_architecture_gen2 from "./architecture_gen2.svg";
-import "./scss/App.scss";
+import React, { Component } from 'react';
+import imgArchitectureGen3 from './architecture_gen3.svg';
+import imgArchitectureGen2 from './architecture_gen2.svg';
+import './scss/App.scss';
 
 class App extends Component {
   // state = {
@@ -39,7 +39,7 @@ class App extends Component {
           </p>
           <div>
             <img
-              src={img_architecture_gen3}
+              src={imgArchitectureGen3}
               className="img-full"
               alt="architecture gen3"
             />
@@ -62,7 +62,7 @@ class App extends Component {
                 </p>
                 <div>
                   <img
-                    src={img_architecture_gen2}
+                    src={imgArchitectureGen2}
                     className="img-full"
                     alt="architecture gen2"
                   />
@@ -71,7 +71,7 @@ class App extends Component {
               <li>
                 <a
                   className="App-link"
-                  href="https://gen1.skylerdong.com/"
+                  href="https://sites.google.com/site/tiannongsdong/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
