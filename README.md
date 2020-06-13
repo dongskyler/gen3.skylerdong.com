@@ -12,16 +12,11 @@ Working repo: [https://github.com/dongskyler/gen3.skylerdong.com](https://github
 
 ## Description
 
-This repository is the active working repository for my personal website at [https://skylerdong.com](https://skylerdong.com).
+This is the active working repository for my personal website at [https://skylerdong.com](https://skylerdong.com).
 
-This is the 3rd generation of my website. I&apos;m currently building it with [TypeScript](https://www.typescriptlang.org) [React](https://reactjs.org) and [Sass](https://sass-lang.com).
+It is the 3rd generation of my personal websites. I&apos;m currently building it with [TypeScript](https://www.typescriptlang.org) [React](https://reactjs.org) and [Sass](https://sass-lang.com).
 
-### Previous generations of my websites
-
-- [2nd generation of my website](https://gen2.skylerdong.com/) and its [repository](https://github.com/dongskyler/gen2.skylerdong.com), which was established in early 2020 and built with [Bootstrap 4](https://getbootstrap.com), [JQuery](https://jquery.com), [Sass](https://sass-lang.com), vanilla [PHP](https://www.php.net) and [MySQL](https://www.mysql.com).
-- [1st generation of my website](https://gen1.skylerdong.com/), which was established in 2015 and built with a Google Site template.
-
-**_Note that all websites mentioned in this README might be down, as I&apos;m currently configuring A records and the server itself._**
+Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose repository is [here](https://github.com/dongskyler/api.skylerdong.com).
 
 ***
 
@@ -47,6 +42,13 @@ However, my photographs are not. It is always appreciated when you refer back to
 - RAM: 2 GB
 - Operating system: CentOS 8
 - Web server: Nginx
+
+***
+
+## Previous generations of my websites
+
+- [2nd generation of my website](https://gen2.skylerdong.com/) and its [repository](https://github.com/dongskyler/gen2.skylerdong.com), which was established in early 2020 and built with [Bootstrap 4](https://getbootstrap.com), [JQuery](https://jquery.com), [Sass](https://sass-lang.com), vanilla [PHP](https://www.php.net) and [MySQL](https://www.mysql.com).
+- [1st generation of my website](https://gen1.skylerdong.com/), which was established in 2015 and built with a Google Site template.
 
 ***
 
