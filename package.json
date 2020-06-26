@@ -1,8 +1,11 @@
 {
   "name": "gen3.skylerdong.com",
   "version": "0.1.0",
+  "description": "Working repository for my 3rd-generation personal website at skylerdong.com",
+  "repository": "https://github.com/dongskyler/gen3.skylerdong.com.git",
+  "author": "Skyler Dong <skyler@skylerdong.com>",
   "private": true,
-  "proxy": "http://localhost:3000",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "format": "prettier './src/**/*.{js,jsx,ts,tsx}' --write",
@@ -25,6 +28,17 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --quiet --fix"
     ]
   },
   "dependencies": {
@@ -71,16 +85,5 @@
     "prettier-eslint-cli": "^5.0.0",
     "ts-node": "^8.10.1",
     "typescript": "^3.9.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "./src/**/*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --quiet --fix"
-    ]
   }
 }
