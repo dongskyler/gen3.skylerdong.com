@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+
 import imgArchitectureGen3 from './architecture_gen3.svg';
 import imgArchitectureGen2 from './architecture_gen2.svg';
 import './scss/App.scss';
+
+ReactGA.initialize('UA-106597051-4');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   // state = {
