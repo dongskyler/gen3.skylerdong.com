@@ -10,6 +10,7 @@
   "scripts": {
     "format": "prettier './src/**/*.{js,jsx,ts,tsx}' --write",
     "lint": "eslint './src/**/*.{js,jsx,ts,tsx}' --quiet --fix",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "start": "react-scripts start",
