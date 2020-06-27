@@ -4,7 +4,7 @@ import imgArchitectureGen3 from './architecture_gen3.svg';
 import imgArchitectureGen2 from './architecture_gen2.svg';
 import './scss/App.scss';
 
-ReactGA.initialize('UA-106597051-4');
+ReactGA.initialize('UA-106597051-4', { testMode: true });
 
 class App extends Component {
   componentDidMount() {
