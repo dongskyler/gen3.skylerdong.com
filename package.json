@@ -46,6 +46,8 @@
     ]
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.3.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.6.0",
     "react": "^16.13.1",
@@ -60,8 +62,6 @@
     "@babel/preset-react": "^7.9.4",
     "@babel/preset-typescript": "^7.9.0",
     "@testing-library/dom": "^7.16.2",
-    "@testing-library/jest-dom": "^5.10.1",
-    "@testing-library/react": "^10.3.0",
     "@testing-library/user-event": "^11.4.1",
     "@types/jest": "^26.0.0",
     "@types/node": "^14.0.13",
