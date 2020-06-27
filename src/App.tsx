@@ -1,31 +1,15 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
-
 import imgArchitectureGen3 from './architecture_gen3.svg';
 import imgArchitectureGen2 from './architecture_gen2.svg';
 import './scss/App.scss';
 
+ReactGA.initialize('UA-106597051-4');
+
 class App extends Component {
-  // state = {
-  //   data: null,
-  // };
-
-  // componentDidMount() {
-  //   // Call our fetch function below once the component mounts
-  //   this.callBackendAPI()
-  //     .then((res) => this.setState({ data: res.express }))
-  //     .catch((err) => console.log(err));
-  // }
-  // // Fetches our GET route from the Express server. (Note the route we are fetching matches the GET route from server.js
-  // callBackendAPI = async () => {
-  //   const response = await fetch("/express_backend");
-  //   const body = await response.json();
-
-  //   if (response.status !== 200) {
-  //     throw Error(body.message);
-  //   }
-  //   return body;
-  // };
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
 
   render() {
     return (
@@ -86,8 +70,6 @@ class App extends Component {
           {/* <h3>Render the newly fetched data inside of this.state.data :</h3> */}
           {/* <p className="App-intro">{this.state.data}</p> */}
         </div>
-        ReactGA.initialize('UA-106597051-4');
-        ReactGA.pageview(window.location.pathname + window.location.search);
       </div>
     );
   }
