@@ -1,0 +1,10 @@
+// index.scss
+// Entry point for all styles
+
+// Import modules
+@use 'App';
+@use 'Header';
+@use 'Footer';
+
+// Load fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Nunito+Sans&family=Roboto+Mono&display=swap');

@@ -1,0 +1,17 @@
+// _extend.scss
+
+@use 'colors' as color;
+
+%a-no-text-decoration {
+  &:link,
+  &:visited {
+    color: color.$light-font;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:active {
+    color: color.$lighter-font;
+    text-decoration: none;
+  }
+}

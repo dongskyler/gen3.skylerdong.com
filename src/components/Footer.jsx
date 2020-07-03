@@ -12,11 +12,7 @@ import {
   faDocker,
 } from '@fortawesome/free-brands-svg-icons';
 import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import {
-  fas,
-  faCamera,
-  faChevronCircleUp,
-} from '@fortawesome/free-solid-svg-icons';
+import { fas, faCamera, faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   fab,
@@ -48,26 +44,23 @@ class Footer extends Component {
 
     const profileArray = profiles.map((profile) => (
       <li key={profile.network}>
-        <a href={profile.url}>
+        <a href={profile.url} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={profile.icon} />
         </a>
       </li>
     ));
 
     return (
-      <footer>
-        <div className="row">
-          <div className="twelve columns">
-            <ul className="social-links">{profileArray}</ul>
-
-            <ul className="copyright">
-              <li>
-                Copyright &copy; {this.getYear()} {name}.
-              </li>
-            </ul>
+      <footer id="footer">
+        <div>
+          <div>
+            <ul className="profile-icons">{profileArray}</ul>
+            <div className="copyright">
+              Copyright &copy; {this.getYear()} {name}.
+            </div>
           </div>
           <div id="back-to-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <a className="smooth-scroll" title="Back to Top" href="#home">
               <FontAwesomeIcon icon={['fas', 'chevron-circle-up']} />
             </a>
           </div>

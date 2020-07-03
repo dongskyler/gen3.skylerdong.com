@@ -1,0 +1,23 @@
+// App.scss
+// App styles
+
+// Load modules
+@use 'fonts' as font;
+
+// Styles
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: font.$mono;
+}
+
+.main-content {
+  padding: 1rem 3rem;
+}
+
+a {
+  color: #0066cc;
+}
