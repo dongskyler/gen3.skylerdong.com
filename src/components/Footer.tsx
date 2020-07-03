@@ -1,7 +1,5 @@
-/** Import React. */
 import React, { Component } from 'react';
-
-/** Import FontAwesome icons. */
+import IconButton from '@material-ui/core/IconButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -13,6 +11,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { fas, faCamera, faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
+import { IfcResumeBasics } from '../interfaces/IfcResumeBasics';
 
 library.add(
   fab,
@@ -27,7 +26,7 @@ library.add(
   faChevronCircleUp
 );
 
-class Footer extends Component {
+class Footer extends Component<IfcResumeBasics> {
   /** Get current year. */
   getYear() {
     return new Date().getFullYear();
@@ -35,17 +34,13 @@ class Footer extends Component {
 
   render() {
     const {
-      data: { name },
-    } = this.props;
-
-    const {
-      data: { profiles },
+      basics: { name, profiles },
     } = this.props;
 
     const profileArray = profiles.map((profile) => (
       <li key={profile.network}>
         <a href={profile.url} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={profile.icon} />
+          <FontAwesomeIcon icon={[profile.icon.iconPrefix, profile.icon.iconName]} />
         </a>
       </li>
     ));
@@ -60,9 +55,9 @@ class Footer extends Component {
             </div>
           </div>
           <div id="back-to-top">
-            <a className="smooth-scroll" title="Back to Top" href="#home">
+            <IconButton>
               <FontAwesomeIcon icon={['fas', 'chevron-circle-up']} />
-            </a>
+            </IconButton>
           </div>
         </div>
       </footer>

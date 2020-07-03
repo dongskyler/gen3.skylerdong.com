@@ -1,4 +1,102 @@
 // _colors.scss
 
-$light-font: #e6e6e6;
-$lighter-font: #f9f9f9;
+@use "sass:map";
+
+// Color palette
+$palette: (
+  p1: #242d2dff,
+  p2: #528e81ff,
+  p3: #5aaf9bff,
+  p4: #bbddd4ff,
+  p5: #e3f2eeff,
+  s1: #dd7070ff,
+  s2: #f5ab00ff,
+  s3: #f6c451ff,
+  s4: #fae3b2ff,
+  s5: #fbf9f9ff,
+);
+
+// Font colors
+$font: (
+  p1: #000000ff,
+  p2: map.get($palette, p1),
+  p3: #484848ff,
+  s1: #fdfdfdff,
+  s2: #ffffffff,
+  s3: map.get($palette, s4),
+);
+
+// Gradients
+$gradient: (
+  top:
+    linear-gradient(
+      0deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  right:
+    linear-gradient(
+      90deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  bottom:
+    linear-gradient(
+      180deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  left:
+    linear-gradient(
+      270deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  top-right:
+    linear-gradient(
+      45deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  bottom-right:
+    linear-gradient(
+      135deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  top-left:
+    linear-gradient(
+      225deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  bottom-left:
+    linear-gradient(
+      315deg,
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+  radial:
+    radial-gradient(
+      map.get($palette, p2),
+      map.get($palette, p3),
+      map.get($palette, p4),
+      map.get($palette, p5)
+    ),
+);
