@@ -16,12 +16,6 @@ import resume from './resumeData.json';
 // import imgArchitectureGen3 from './architecture_gen3.svg';
 // import imgArchitectureGen2 from './architecture_gen2.svg';
 
-// interface resumeData {
-//   resumeData: {
-//     basics: object
-//   };
-// }
-
 class App extends Component {
   // constructor(props) {
   //   super(props);
@@ -41,8 +35,8 @@ class App extends Component {
 
     return (
       <div id="App">
-        <Header data={basics} />
-        <Footer data={basics} />
+        <Header basics={basics} />
+        <Footer basics={basics} />
       </div>
     );
   }

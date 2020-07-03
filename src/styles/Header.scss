@@ -20,11 +20,13 @@
   font-size: calc(10px + 2vmin);
 
   .masthead {
+    padding: 0.5rem 1rem;
+
     ul.profile-icons {
       list-style-type: none;
       text-align: center;
-      margin: 1rem;
-      padding: 0;
+      margin: 0.5rem;
+      padding: 1rem 0.5rem;
 
       li {
         font-size: 2rem;
@@ -38,13 +40,8 @@
     }
   }
 
-  .scroll-down {
+  .scroll-down button {
     font-size: 2rem;
-    text-align: center;
-    padding: 0.5rem;
-
-    a {
-      @extend %a-no-text-decoration-secondary;
-    }
+    color: map.get(color.$font, s1);
   }
 }
