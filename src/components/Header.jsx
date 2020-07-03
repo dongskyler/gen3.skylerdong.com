@@ -52,7 +52,7 @@ class Header extends Component {
     ));
 
     return (
-      <header className="App-header" id="home">
+      <header className="header" id="home">
         {/* <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -95,9 +95,9 @@ class Header extends Component {
           </ul>
         </nav> */}
 
-        <div className="banner">
-          <div className="banner-text">
-            <h1 className="responsive-headline">Hi! I'm {firstName}!</h1>
+        <div className="masthead">
+          <div>
+            <h1>Hi! I'm {firstName}!</h1>
             <h3>
               I'm an <span>{label}</span>.
             </h3>
@@ -107,7 +107,7 @@ class Header extends Component {
         </div>
 
         <div className="scroll-down">
-          <a className="smoothscroll" href="/">
+          <a className="smooth-scroll" href="/">
             <FontAwesomeIcon icon={['fas', 'chevron-circle-down']} />
           </a>
         </div>

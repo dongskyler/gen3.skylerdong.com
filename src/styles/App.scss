@@ -1,32 +1,23 @@
-#App {
+// App.scss
+// App styles
+
+// Load modules
+@use 'fonts' as font;
+
+// Styles
+
+body {
   margin: 0;
-  padding: 0;
+}
+
+code {
+  font-family: font.$mono;
 }
 
 .main-content {
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 56px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+a {
   color: #0066cc;
-}
-
-.img-full {
-  width: 80vw;
 }

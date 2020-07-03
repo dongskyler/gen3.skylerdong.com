@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 /** Import React router. */
-import { Router, Route, Switch } from 'react-router';
+// import { Router, Route, Switch } from 'react-router';
 
 /** Import Google Analytics. */
 import ReactGA from 'react-ga';
@@ -15,11 +15,6 @@ import resume from './resumeData.json';
 
 // import imgArchitectureGen3 from './architecture_gen3.svg';
 // import imgArchitectureGen2 from './architecture_gen2.svg';
-
-/** Import stylesheets. */
-import './styles/App.scss';
-import './styles/Header.scss';
-import './styles/Footer.scss';
 
 // interface resumeData {
 //   resumeData: {

@@ -52,15 +52,15 @@ class Footer extends Component {
 
     return (
       <footer id="footer">
-        <div className="row">
-          <div className="twelve columns">
+        <div>
+          <div>
             <ul className="profile-icons">{profileArray}</ul>
             <div className="copyright">
               Copyright &copy; {this.getYear()} {name}.
             </div>
           </div>
           <div id="back-to-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <a className="smooth-scroll" title="Back to Top" href="#home">
               <FontAwesomeIcon icon={['fas', 'chevron-circle-up']} />
             </a>
           </div>

@@ -1,4 +1,12 @@
+// Footer.scss
+
+// Import modules
+@use 'variables' as var;
+@use 'fonts' as font;
+@use 'extend';
+
 #footer {
+  font-family: font.$body;
   padding: 1rem 2rem;
 
   ul.profile-icons {
@@ -13,17 +21,7 @@
       padding: 0.5rem;
 
       a {
-        &:link,
-        &:visited {
-          color: #e6e6e6;
-          text-decoration: none;
-        }
-
-        &:hover,
-        &:active {
-          color: #f9f9f9;
-          text-decoration: none;
-        }
+        @extend %a-no-text-decoration;
       }
     }
   }
