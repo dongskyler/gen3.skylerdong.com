@@ -3,7 +3,9 @@
 // Import modules
 @use 'variables' as var;
 @use 'fonts' as font;
+@use 'colors' as color;
 @use 'extend';
+@use "sass:map";
 
 .header {
   min-height: 56px;
@@ -12,9 +14,9 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #282c34;
+  background-color: map.get(color.$palette, p2);
+  color: map.get(color.$font, s1);
   font-family: font.$title;
-  color: white;
   font-size: calc(10px + 2vmin);
 
   .masthead {
@@ -30,19 +32,19 @@
         padding: 0.25rem 0.5rem;
 
         a {
-          @extend %a-no-text-decoration;
+          @extend %a-no-text-decoration-secondary;
         }
       }
     }
   }
 
   .scroll-down {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     padding: 0.5rem;
 
     a {
-      @extend %a-no-text-decoration;
+      @extend %a-no-text-decoration-secondary;
     }
   }
 }
