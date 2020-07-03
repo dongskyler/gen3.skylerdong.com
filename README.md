@@ -1,21 +1,23 @@
-# Working Repository for SkylerDong.com
+# Working Repository for skylerdong.com
 
 Website: [https://skylerdong.com](https://skylerdong.com)
 
 Repository: [https://github.com/dongskyler/gen3.skylerdong.com](https://github.com/dongskyler/gen3.skylerdong.com)
 
-Author: Skyler Dong (<skyler@skylerdong.com>)
+Author: Skyler Dong (<dongskyler@gmail.com>)
 
 ---
 
 ## Table of content
 
 - [Description](#Description)
-- [Status](#Status)
-- [Previous generations of my websites](#Previous-generations-of-my-websites)
+- [Dashboard](#Dashboard)
 - [Architecture](#Architecture)
+- [Previous generations of my websites](#Previous-generations-of-my-websites)
+- [Styles](#Styles)
+  - [Writing style](#Writing-style)
+  - [Coding style](#Coding-style)
 - [Server specs](#Server-specs)
-- [Writing style](#Writing-style)
 - [Copyright notice](#Copyright-notice)
 
 ---
@@ -30,11 +32,24 @@ Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose rep
 
 ---
 
-## Status
+## Dashboard
+
+![Node.js CI](https://github.com/dongskyler/skylerdong.com-gen3/workflows/Node.js%20CI/badge.svg)
+[![Build Status](https://travis-ci.org/dongskyler/gen3.skylerdong.com.svg?branch=master)](https://travis-ci.org/dongskyler/gen3.skylerdong.com)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/dongskyler/gen3.skylerdong.com/badge)](https://www.codefactor.io/repository/github/dongskyler/gen3.skylerdong.com)
 [![DeepScan grade](https://deepscan.io/api/teams/9441/projects/12040/branches/181474/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9441&pid=12040&bid=181474)
-![Node.js CI](https://github.com/dongskyler/skylerdong.com-gen3/workflows/Node.js%20CI/badge.svg)
+
+[![GitHub issues](https://img.shields.io/github/issues/dongskyler/api.skylerdong.com.svg)](https://GitHub.com/dongskyler/api.skylerdong.com/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/dongskyler/api.skylerdong.com.svg)](https://GitHub.com/dongskyler/api.skylerdong.com/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/dongskyler/api.skylerdong.com.svg)](https://GitHub.com/dongskyler/api.skylerdong.com/pulls/)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/dongskyler/api.skylerdong.com.svg)](https://GitHub.com/dongskyler/api.skylerdong.com/pulls/)
+
+---
+
+## Architecture
+
+![Architecture](https://raw.githubusercontent.com/dongskyler/api.skylerdong.com/master/doc/architecture_gen3.svg)
 
 ---
 
@@ -45,9 +60,15 @@ Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose rep
 
 ---
 
-## Architecture
+## Styles
 
-![Architecture](https://raw.githubusercontent.com/dongskyler/api.skylerdong.com/master/doc/architecture_gen3.svg)
+### Writing style
+
+All writings on my website follow [AP Style](https://owl.purdue.edu/owl/subject_specific_writing/journalism_and_journalistic_writing/ap_style.html). :sunglasses:
+
+### Coding style
+
+Airbnb JavaScript style.
 
 ---
 
@@ -62,13 +83,7 @@ Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose rep
 
 ---
 
-## Writing Style
-
-All writings on my website follow [AP Style](https://owl.purdue.edu/owl/subject_specific_writing/journalism_and_journalistic_writing/ap_style.html). :sunglasses:
-
----
-
-## Copyright Notice
+## Copyright notice
 
 The code of the website is under MIT license.
 
