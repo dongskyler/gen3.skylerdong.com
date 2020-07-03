@@ -10,6 +10,9 @@ node_js:
   - 12
   - 14
 
+env:
+  - NODE_ENV=production
+
 install:
   - yarn --frozen-lockfile
 
