@@ -1,12 +1,13 @@
 module.exports = {
   extends: [
     'airbnb',
-    'prettier',
-    'prettier/react',
+    'eslint:recommended',
+    'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
     'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
+    'prettier/react',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -24,7 +25,6 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    jquery: true,
     jest: true,
   },
   settings: {
@@ -115,7 +115,7 @@ module.exports = {
       {
         trailingComma: 'es5',
         singleQuote: true,
-        printWidth: 80,
+        printWidth: 88,
       },
     ],
     'jsx-a11y/href-no-hash': 'off',
@@ -126,5 +126,5 @@ module.exports = {
       },
     ],
   },
-  plugins: ['prettier', 'react', 'react-hooks'],
+  plugins: ['react', 'react-hooks', 'prettier', '@typescript-eslint'],
 };
