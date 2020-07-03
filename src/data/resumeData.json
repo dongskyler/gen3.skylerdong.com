@@ -120,15 +120,49 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "name": "Front-end web development",
+      "level": "",
+      "keywords": [
+        "JavaScript/TypeScript",
+        "React",
+        "Webpack",
+        "JQuery/Ajax",
+        "HTML",
+        "CSS/Sass",
+        "Bootstrap 4",
+        "Material Design",
+        "Illustrator/Photoshop"
+      ]
+    },
+    {
+      "name": "Back-end web development",
+      "level": "",
+      "keywords": [
+        "Node/Express",
+        "GraphQL/Apollo",
+        "noSQL/MongoDB",
+        "PHP",
+        "SQL/MySQL",
+        "Python/Flask",
+        "Bash/Zsh",
+        "Nginx/Apache",
+        "Linux/Ubuntu/CentOS"
+      ]
+    },
+    {
+      "name": "Scientific computation",
+      "level": "",
+      "keywords": ["MATLAB", "Python/numpy/pandas/matplotlib"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Manderin Chinese",
+      "fluency": "Native"
     }
   ],
   "interests": [

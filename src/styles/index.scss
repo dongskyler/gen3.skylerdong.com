@@ -1,9 +1,9 @@
 // index.scss
 // Entry point for all styles
 
-// Use modules
+// Import modules
 @use 'App';
-@use 'Header';
+@use 'Home';
 @use 'Footer';
 
 // Load fonts

@@ -2,8 +2,9 @@
 // App styles
 
 // Load modules
-@use 'fonts' as font;
 @use "sass:map";
+@use 'fonts' as font;
+@use 'colors' as color;
 
 // Styles
 
@@ -16,9 +17,9 @@ code {
 }
 
 .main-content {
-  padding: 1rem 3rem;
+  font-family: font.$body;
 }
 
 a {
-  color: #0066cc;
+  color: map.get(color.$font, pa);
 }
