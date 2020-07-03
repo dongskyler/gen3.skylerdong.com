@@ -1,16 +1,9 @@
-/** Import React. */
 import React, { Component } from 'react';
-
-/** Import React router. */
 // import { Router, Route, Switch } from 'react-router';
-
-/** Import Google Analytics. */
 import ReactGA from 'react-ga';
 
-/** Import components. */
 import Header from './components/Header';
 import Footer from './components/Footer';
-
 import resume from './resumeData.json';
 
 // import imgArchitectureGen3 from './architecture_gen3.svg';

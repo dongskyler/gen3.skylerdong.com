@@ -1,12 +1,5 @@
-/** Import React. */
 import React, { Component } from 'react';
-
-/** Import interfaces. */
-
-/** Import Material Design. */
 import IconButton from '@material-ui/core/IconButton';
-
-/** Import FontAwesome icons. */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
