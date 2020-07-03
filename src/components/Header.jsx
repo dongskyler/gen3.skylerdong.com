@@ -1,7 +1,7 @@
 /** Import React. */
 import React, { Component } from 'react';
 
-// Import FontAwesome icons
+/** Import FontAwesome icons. */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -12,11 +12,7 @@ import {
   faDocker,
 } from '@fortawesome/free-brands-svg-icons';
 import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import {
-  fas,
-  faCamera,
-  faChevronCircleDown,
-} from '@fortawesome/free-solid-svg-icons';
+import { fas, faCamera, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   fab,
@@ -49,7 +45,7 @@ class Header extends Component {
 
     const profileArray = profiles.map((profile) => (
       <li key={profile.network}>
-        <a href={profile.url}>
+        <a href={profile.url} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={profile.icon} />
         </a>
       </li>
@@ -99,22 +95,22 @@ class Header extends Component {
           </ul>
         </nav> */}
 
-        <div className="row banner">
+        <div className="banner">
           <div className="banner-text">
             <h1 className="responsive-headline">Hi! I'm {firstName}!</h1>
             <h3>
               I'm an <span>{label}</span>.
             </h3>
             <hr />
-            <ul className="profiles">{profileArray}</ul>
+            <ul className="profile-icons">{profileArray}</ul>
           </div>
         </div>
 
-        <p className="scrolldown">
+        <div className="scroll-down">
           <a className="smoothscroll" href="/">
             <FontAwesomeIcon icon={['fas', 'chevron-circle-down']} />
           </a>
-        </p>
+        </div>
       </header>
     );
   }

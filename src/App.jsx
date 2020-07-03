@@ -1,6 +1,9 @@
 /** Import React. */
 import React, { Component } from 'react';
 
+/** Import React router. */
+import { Router, Route, Switch } from 'react-router';
+
 /** Import Google Analytics. */
 import ReactGA from 'react-ga';
 
@@ -8,13 +11,15 @@ import ReactGA from 'react-ga';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-import resume from './resumeData';
+import resume from './resumeData.json';
 
 // import imgArchitectureGen3 from './architecture_gen3.svg';
 // import imgArchitectureGen2 from './architecture_gen2.svg';
 
 /** Import stylesheets. */
-import './scss/App.scss';
+import './styles/App.scss';
+import './styles/Header.scss';
+import './styles/Footer.scss';
 
 // interface resumeData {
 //   resumeData: {
@@ -26,16 +31,11 @@ class App extends Component {
   // constructor(props) {
   //   super(props);
   //   this.state = {
-  //     resumeData: {},
+  //     resumeData: null,
   //   };
   // }
 
   componentDidMount() {
-    console.log(resume);
-
-    /** Get resumeData. */
-    // this.getResumeData();
-
     /** Initialize Google Analytics. */
     ReactGA.initialize('UA-106597051-4', { testMode: true });
     ReactGA.pageview(window.location.pathname + window.location.search);
@@ -45,7 +45,7 @@ class App extends Component {
     const { basics } = resume;
 
     return (
-      <div className="App">
+      <div id="App">
         <Header data={basics} />
         <Footer data={basics} />
       </div>
