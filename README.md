@@ -12,6 +12,9 @@ Author: Skyler Dong (<dongskyler@gmail.com>)
 
 - [Description](#Description)
 - [Dashboard](#Dashboard)
+  - [Continuous integration](#Continuous-integration)
+  - [Code quality](#Code-quality)
+  - [Issues and pull requests](#Issues-and-pull-requests)
 - [Architecture](#Architecture)
 - [Previous generations of my websites](#Previous-generations-of-my-websites)
 - [Styles](#Styles)
@@ -34,11 +37,17 @@ Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose rep
 
 ## Dashboard
 
+### Continuous integration
+
 ![Node.js CI](https://github.com/dongskyler/skylerdong.com-gen3/workflows/Node.js%20CI/badge.svg)
 [![Build Status](https://travis-ci.org/dongskyler/gen3.skylerdong.com.svg?branch=master)](https://travis-ci.org/dongskyler/gen3.skylerdong.com)
 
+### Code quality
+
 [![CodeFactor](https://www.codefactor.io/repository/github/dongskyler/gen3.skylerdong.com/badge)](https://www.codefactor.io/repository/github/dongskyler/gen3.skylerdong.com)
 [![DeepScan grade](https://deepscan.io/api/teams/9441/projects/12040/branches/181474/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9441&pid=12040&bid=181474)
+
+### Issues and pull requests
 
 [![GitHub issues](https://img.shields.io/github/issues/dongskyler/api.skylerdong.com.svg)](https://GitHub.com/dongskyler/api.skylerdong.com/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/dongskyler/api.skylerdong.com.svg)](https://GitHub.com/dongskyler/api.skylerdong.com/issues?q=is%3Aissue+is%3Aclosed)
