@@ -51,7 +51,7 @@
     .architecture-diagram {
       margin: 0;
       padding: 0;
-      background-color: map.get(color.$palette, s5);
+      background-color: map.get(color.$palette, p5);
 
       & > div {
         padding: 1rem;
@@ -61,11 +61,11 @@
     .site-under-construction {
       margin: 0;
       padding: 0;
-      background-color: map.get(color.$palette, s1);
+      background-color: map.get(color.$palette, p3);
 
       & > div {
         padding: 1rem;
-        color: map.get(color.$font, s1);
+        color: map.get(color.$font, p1);
 
         div,
         p {
@@ -78,7 +78,7 @@
     .previous-websites {
       margin: 0;
       padding: 0;
-      background-color: map.get(color.$palette, s5);
+      background-color: map.get(color.$palette, p4);
 
       & > div {
         padding: 1rem;

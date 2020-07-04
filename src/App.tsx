@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 // import { Router, Route, Switch } from 'react-router';
+// import { AppBar, Container } from '@material-ui/core';
 import ReactGA from 'react-ga';
 
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 
@@ -26,6 +28,7 @@ class App extends Component {
 
     return (
       <div id="App">
+        <Navbar />
         <Home basics={basics} />
         <Footer basics={basics} />
       </div>

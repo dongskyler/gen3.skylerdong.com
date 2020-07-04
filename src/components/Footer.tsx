@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import IconButton from '@material-ui/core/IconButton';
+import { IconButton } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -48,11 +48,11 @@ class Footer extends Component<IfcResumeBasics> {
     return (
       <footer id="footer">
         <div>
-          {/* <div id="back-to-top">
+          <div id="back-to-top">
             <IconButton>
               <FontAwesomeIcon icon={['fas', 'chevron-circle-up']} />
             </IconButton>
-          </div> */}
+          </div>
           <div>
             <ul className="profile-icons">{profileArray}</ul>
             <div className="copyright">

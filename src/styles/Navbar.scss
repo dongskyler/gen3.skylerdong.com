@@ -1,0 +1,10 @@
+// Navbar.scss
+
+@use 'sass:map';
+@use 'colors' as color;
+@use 'fonts' as font;
+
+#navbar {
+  font-family: font.$title;
+  background-color: map.get(color.$palette, p2);
+}
