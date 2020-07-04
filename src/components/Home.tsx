@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import IconButton from '@material-ui/core/IconButton';
+import { IconButton } from '@material-ui/core';
 // import imgArchitectureGen2 from '../data/architecture_gen2.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -52,17 +52,15 @@ class Home extends Component<IfcResumeBasics> {
           <div className="masthead">
             <div>
               <h1>Hi! I'm {firstName}!</h1>
-              <h3>
-                I'm an <span>{label}</span>.
-              </h3>
+              <h3>{label}</h3>
               <ul className="profile-icons">{profileArray}</ul>
             </div>
           </div>
-          {/* <div className="scroll-down">
+          <div className="scroll-down">
             <IconButton>
               <FontAwesomeIcon icon={['fas', 'chevron-circle-down']} />
             </IconButton>
-          </div> */}
+          </div>
         </header>
         <div className="main-content">
           <div className="architecture-diagram">
