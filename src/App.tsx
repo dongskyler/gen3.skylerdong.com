@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import { AppBar, Container } from '@material-ui/core';
 import ReactGA from 'react-ga';
 
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 
@@ -28,7 +28,7 @@ class App extends Component {
 
     return (
       <div id="App">
-        <Navbar />
+        {/* <Navbar /> */}
         <Home basics={basics} />
         <Footer basics={basics} />
       </div>
