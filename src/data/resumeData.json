@@ -11,13 +11,13 @@
     "email": "dongskyler@gmail.com",
     "phone": "608-481-3521",
     "website": "https://skylerdong.com/",
-    "summary": "Dummy",
+    "summary": "I'm an aspiring full-stack web developer.",
     "location": {
       "address": "",
       "postalCode": "78701",
       "city": "Austin",
-      "countryCode": "US",
-      "region": "Texas"
+      "region": "Texas",
+      "countryCode": "US"
     },
     "profiles": [
       {
@@ -66,7 +66,7 @@
         }
       }
     ],
-    "resumeDownload": "https://skylerdong.com/"
+    "resumeDownload": "https://api.skylerdong.com/resume/"
   },
   "work": [
     {
@@ -77,6 +77,30 @@
       "endDate": "2014-01-01",
       "summary": "Description...",
       "highlights": ["Started the company"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GitHub Label Manager Plus",
+      "organization": "Badwater Bay",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://badwaterbay.com/app/github-label-manager-plus/",
+      "summary": "Web app that manages and migrates your GitHub labels and milestones via HTTP requests to GitHub API, built with JQuery and Ajax",
+      "highlights": ["First highlight", "Second highlight"]
+    }
+  ],
+  "research": [
+    {
+      "name": "Research",
+      "organization": "Organization",
+      "position": "Researcher",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "website": "http://research.com",
+      "summary": "Description...",
+      "highlights": ["Something"]
     }
   ],
   "volunteer": [
@@ -92,13 +116,28 @@
   ],
   "education": [
     {
-      "institution": "University",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "gpa": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "institution": "The University of Texas at Austin",
+      "city": "Austin",
+      "region": "Texas",
+      "countryCode": "US",
+      "area": "Geological sciences",
+      "studyType": "M.S.",
+      "startDate": "2016",
+      "endDate": "2020",
+      "gpa": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Beloit College",
+      "city": "Beloit",
+      "region": "Wisconsin",
+      "countryCode": "US",
+      "area": "Geology with Physics minor",
+      "studyType": "B.S.",
+      "startDate": "2012",
+      "endDate": "2016",
+      "gpa": "",
+      "courses": [""]
     }
   ],
   "awards": [
@@ -120,39 +159,24 @@
   ],
   "skills": [
     {
-      "name": "Front-end web development",
-      "level": "",
-      "keywords": [
-        "JavaScript/TypeScript",
-        "React",
-        "Webpack",
-        "JQuery/Ajax",
-        "HTML",
-        "CSS/Sass",
-        "Bootstrap 4",
-        "Material Design",
-        "Illustrator/Photoshop"
-      ]
+      "name": "JavaScript/TypeScript",
+      "level": 90,
+      "keywords": []
     },
     {
-      "name": "Back-end web development",
-      "level": "",
-      "keywords": [
-        "Node/Express",
-        "GraphQL/Apollo",
-        "noSQL/MongoDB",
-        "PHP",
-        "SQL/MySQL",
-        "Python/Flask",
-        "Bash/Zsh",
-        "Nginx/Apache",
-        "Linux/Ubuntu/CentOS"
-      ]
+      "name": "HTML + CSS/SCSS",
+      "level": 90,
+      "keywords": []
     },
     {
-      "name": "Scientific computation",
-      "level": "",
-      "keywords": ["MATLAB", "Python/numpy/pandas/matplotlib"]
+      "name": "PHP",
+      "level": 70,
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": 50,
+      "keywords": []
     }
   ],
   "languages": [

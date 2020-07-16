@@ -5,9 +5,11 @@ import ReactGA from 'react-ga';
 
 // import Navbar from './components/Navbar';
 import Home from './components/Home';
+import About from './components/About';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
-import resume from './data/resumeData.json';
+import resumeData from './data/resumeData.json';
 
 class App extends Component {
   // constructor(props) {
@@ -24,12 +26,14 @@ class App extends Component {
   }
 
   render() {
-    const { basics } = resume;
+    const { basics, education, projects, skills } = resumeData;
 
     return (
-      <div id="App">
+      <div id="App" className="main-content">
         {/* <Navbar /> */}
         <Home basics={basics} />
+        <About basics={basics} />
+        <Resume education={education} projects={projects} skills={skills} />
         <Footer basics={basics} />
       </div>
     );

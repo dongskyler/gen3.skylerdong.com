@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   fab,
+  // faDocker,
   faGithub,
-  faLinkedin,
   faInstagram,
-  faDocker,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { fas, faCamera, faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
@@ -15,10 +15,10 @@ import { IfcResumeBasics } from '../interfaces/IfcResumeBasics';
 
 library.add(
   fab,
+  // faDocker,
   faGithub,
-  faLinkedin,
   faInstagram,
-  faDocker,
+  faLinkedin,
   far,
   faEnvelope,
   fas,
@@ -46,7 +46,7 @@ class Footer extends Component<IfcResumeBasics> {
     ));
 
     return (
-      <footer id="footer">
+      <footer id="component-footer">
         <div>
           <div id="back-to-top">
             <IconButton>
