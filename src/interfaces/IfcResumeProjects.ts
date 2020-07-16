@@ -6,6 +6,7 @@ export interface IfcResumeProjects {
     startDate?: string;
     endDate?: string;
     website?: string;
+    repository?: string;
     summary?: string;
     highlights?: string[];
   }[];

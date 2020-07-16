@@ -37,6 +37,10 @@ class Footer extends Component<IfcResumeBasics> {
       basics: { name, profiles },
     } = this.props;
 
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     const profileArray = profiles.map((profile) => (
       <li key={profile.network}>
         <a href={profile.url} target="_blank" rel="noopener noreferrer">
@@ -49,7 +53,7 @@ class Footer extends Component<IfcResumeBasics> {
       <footer id="component-footer">
         <div>
           <div id="back-to-top">
-            <IconButton>
+            <IconButton onClick={scrollToTop}>
               <FontAwesomeIcon icon={['fas', 'chevron-circle-up']} />
             </IconButton>
           </div>

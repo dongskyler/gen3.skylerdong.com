@@ -58,7 +58,9 @@ class Resume extends Component<
     const projectList = projects.map((p, i) => (
       <Grid item xs={12} key={i}>
         <Paper className={classes.paper}>
-          <h4>{p.name}</h4>
+          <a href={p.website} target="_blank" rel="noreferrer noopener">
+            <h4>{p.name}</h4>
+          </a>
           <div>{p.summary}</div>
           <div>
             <ul>{createListItems(p.highlights)}</ul>
@@ -96,7 +98,7 @@ class Resume extends Component<
         <hr />
         <Grid container spacing={2} item xs={12}>
           <Grid item xs={12} md={3}>
-            Education
+            <h3>Education</h3>
           </Grid>
           <Grid container spacing={2} item xs={12} md={9}>
             {createEducationList}
@@ -105,7 +107,7 @@ class Resume extends Component<
         <hr />
         <Grid container spacing={2} item xs={12}>
           <Grid item xs={12} md={3}>
-            Projects
+            <h3>Projects</h3>
           </Grid>
           <Grid container spacing={2} item xs={12} md={9}>
             {projectList}
@@ -114,7 +116,7 @@ class Resume extends Component<
         <hr />
         <Grid container spacing={2} item xs={12}>
           <Grid item xs={12} md={3}>
-            Skills
+            <h3>Skills</h3>
           </Grid>
           <Grid container spacing={2} item xs={12} md={9}>
             {skillList}
