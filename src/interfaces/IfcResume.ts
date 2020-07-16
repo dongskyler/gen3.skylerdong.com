@@ -17,8 +17,8 @@ export interface IfcResume {
         address?: string;
         postalCode?: string;
         city?: string;
-        countryCode?: string;
         region?: string;
+        countryCode?: string;
       };
       profiles?: {
         network?: string;
@@ -40,6 +40,17 @@ export interface IfcResume {
       summary?: string;
       highlights?: string[];
     }[];
+    projects?: {
+      name?: string;
+      organization?: string;
+      position?: string;
+      startDate?: string;
+      endDate?: string;
+      website?: string;
+      repository?: string;
+      summary?: string;
+      highlights?: string[];
+    }[];
     volunteer?: {
       organization?: string;
       position?: string;
@@ -51,6 +62,9 @@ export interface IfcResume {
     }[];
     education?: {
       institution?: string;
+      city?: string;
+      region?: string;
+      countryCode?: string;
       area?: string;
       studyType?: string;
       startDate?: string;
@@ -73,7 +87,7 @@ export interface IfcResume {
     }[];
     skills?: {
       name?: string;
-      level?: string;
+      level?: number;
       keywords?: string[];
     }[];
     languages?: {

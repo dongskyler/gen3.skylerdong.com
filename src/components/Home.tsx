@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { IconButton } from '@material-ui/core';
-// import imgArchitectureGen2 from '../data/architecture_gen2.svg';
+// import { IconButton } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -8,19 +7,19 @@ import {
   faGithub,
   faLinkedin,
   faInstagram,
-  faDocker,
+  // faDocker,
 } from '@fortawesome/free-brands-svg-icons';
 import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { fas, faCamera, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
-import imgArchitectureGen3 from '../data/architecture_gen3.svg';
 import { IfcResumeBasics } from '../interfaces/IfcResumeBasics';
+// import imgArchitectureGen3 from '../data/architecture_gen3.svg';
 
 library.add(
   fab,
   faGithub,
   faLinkedin,
   faInstagram,
-  faDocker,
+  // faDocker,
   far,
   faEnvelope,
   fas,
@@ -38,8 +37,8 @@ class Home extends Component<IfcResumeBasics> {
       },
     } = this.props;
 
-    const profileArray = profiles.map((profile) => (
-      <li key={profile.network}>
+    const profileList = profiles.map((profile, i) => (
+      <li key={i}>
         <a href={profile.url} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={[profile.icon.iconPrefix, profile.icon.iconName]} />
         </a>
@@ -53,26 +52,29 @@ class Home extends Component<IfcResumeBasics> {
             <div>
               <h1>Hi! I'm {firstName}!</h1>
               <h3>{label}</h3>
-              <ul className="profile-icons">{profileArray}</ul>
+              <ul className="profile-icons">{profileList}</ul>
             </div>
           </div>
-          <div className="scroll-down">
+          {/* <div className="scroll-down">
             <IconButton>
               <FontAwesomeIcon icon={['fas', 'chevron-circle-down']} />
             </IconButton>
-          </div>
+          </div> */}
         </header>
         <div className="main-content">
-          <div className="architecture-diagram">
+          {/* <div className="architecture-diagram">
             <div>
-              <img src={imgArchitectureGen3} alt="3rd-gen architecture diagram" />
+              <img
+                src={imgArchitectureGen3}
+                alt="3rd-gen architecture diagram"
+              />
             </div>
           </div>
           <div className="site-under-construction">
             <div>
               <p>
-                I'm currently building this website, the 3rd generation of my personal
-                websites.
+                I'm currently building this website, the 3rd generation of my
+                personal websites.
               </p>
             </div>
           </div>
@@ -102,7 +104,7 @@ class Home extends Component<IfcResumeBasics> {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

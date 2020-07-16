@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   fab,
+  // faDocker,
   faGithub,
-  faLinkedin,
   faInstagram,
-  faDocker,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { fas, faCamera, faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
@@ -15,10 +15,10 @@ import { IfcResumeBasics } from '../interfaces/IfcResumeBasics';
 
 library.add(
   fab,
+  // faDocker,
   faGithub,
-  faLinkedin,
   faInstagram,
-  faDocker,
+  faLinkedin,
   far,
   faEnvelope,
   fas,
@@ -37,6 +37,10 @@ class Footer extends Component<IfcResumeBasics> {
       basics: { name, profiles },
     } = this.props;
 
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     const profileArray = profiles.map((profile) => (
       <li key={profile.network}>
         <a href={profile.url} target="_blank" rel="noopener noreferrer">
@@ -46,10 +50,10 @@ class Footer extends Component<IfcResumeBasics> {
     ));
 
     return (
-      <footer id="footer">
+      <footer id="component-footer">
         <div>
           <div id="back-to-top">
-            <IconButton>
+            <IconButton onClick={scrollToTop}>
               <FontAwesomeIcon icon={['fas', 'chevron-circle-up']} />
             </IconButton>
           </div>
