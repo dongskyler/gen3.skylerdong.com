@@ -15,6 +15,7 @@ const styles = (theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
+      padding: theme.spacing(3),
     },
     paper: {
       padding: theme.spacing(2),
@@ -80,8 +81,8 @@ class Resume extends Component<
             theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
         },
         bar: {
-          borderRadius: 5,
-          backgroundColor: '#1a90ff',
+          borderRadius: 7,
+          backgroundColor: '#7f8d8bff',
         },
       })
     )(LinearProgress);
