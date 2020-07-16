@@ -7,7 +7,7 @@
 @use 'extend';
 @use 'sass:map';
 
-#footer {
+#component-footer {
   font-family: font.$body;
   padding: 1rem 2rem;
   color: map.get(color.$font, p1);

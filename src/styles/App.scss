@@ -5,6 +5,7 @@
 @use "sass:map";
 @use 'fonts' as font;
 @use 'colors' as color;
+@use 'extend';
 
 // Styles
 
@@ -22,4 +23,8 @@ code {
 
 a {
   color: map.get(color.$font, pa);
+
+  button {
+    @extend %a-no-text-decoration-primary;
+  }
 }
