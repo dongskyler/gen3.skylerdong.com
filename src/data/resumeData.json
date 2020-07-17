@@ -87,12 +87,68 @@
       "startDate": "2020-01-01",
       "endDate": "2020-01-01",
       "website": "https://badwaterbay.com/app/github-label-manager-plus/",
-      "repository": "",
+      "repository": "https://github.com/BadwaterBay/github-label-manager-plus",
       "summary": "Web app that manages and migrates your GitHub labels and milestones.",
       "highlights": [
         "Lead the development of the open-source web app.",
         "Communicate with GitHub API via HTTP requests.",
         "Style the web app with Bootstrap-Material-Design to achieve a responsive design."
+      ]
+    },
+    {
+      "name": "Personal websites",
+      "organization": "Independent project",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://skylerdong.com/",
+      "repository": "https://github.com/dongskyler/gen3.skylerdong.com",
+      "summary": "Web app that manages and migrates your GitHub labels and milestones.",
+      "highlights": [
+        "3rd generation: TypeScript Reactfront-end supported by Node/Express API back-end and MongoDB Atlas, implemented with a plug-in architecture.",
+        "2nd generation: Responsive-design website utilizing a PHP back-end with a MySQL database and a front-end powered by JavaScript, Bootstrap and SCSS.",
+        "Optimize for SEO and track traffic with Google Analytics."
+      ]
+    },
+    {
+      "name": "Camera brand trends of Canon, Nikon and Sony",
+      "organization": "Badwater Bay",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://badwaterbay.com/app/camera-trends/",
+      "repository": "https://github.com/BadwaterBay/camera-trends",
+      "summary": "Data scraping, analysis and visualization with Google trends, Python and D3.js",
+      "highlights": [
+        "Scrape Google trend indices of 3 major camera brands with Python.",
+        "Correlate annual revenues with Google trends and visualize the data with D3.js."
+      ]
+    },
+    {
+      "name": "Linus CentOS 8 web server",
+      "organization": "Independent project",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://skylerdong.com/",
+      "repository": "",
+      "summary": "Up and running virtual private server on Google Cloud.",
+      "highlights": [
+        "Independently set up and maintain the server and DNS records.",
+        "Communicate with the server via SSH and deploy code for production via Git Hook."
+      ]
+    },
+    {
+      "name": "Linux Ubuntu post-installation script",
+      "organization": "Independent project",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://github.com/dongskyler/ubuntu-20-desktop-post-installation-script",
+      "repository": "",
+      "summary": "Automated program installations via Bash script.",
+      "highlights": [
+        "Automate program installations, development environment setups and system configurations with Bash script."
       ]
     }
   ],
