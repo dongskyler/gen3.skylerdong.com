@@ -71,7 +71,7 @@
     "react-router-sitemap": "^1.2.0",
     "react-scripts": "^3.4.1",
     "sass": "^1.26.10",
-    "uuid": "^8.2.0"
+    "uuid": "^8.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
