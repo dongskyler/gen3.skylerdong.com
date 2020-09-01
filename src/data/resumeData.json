@@ -81,18 +81,59 @@
   ],
   "projects": [
     {
-      "name": "GitHub Label Manager Plus",
+      "name": "Labelcopier (published GitHub OAuth App)",
+      "organization": "Badwater Bay",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://badwaterbay.com/labelcopier",
+      "repository": "https://github.com/BadwaterBay/labelcopier",
+      "summary": "Web app that copies labels and milestones from one repository to another.",
+      "highlights": [
+        "Led the development of the app",
+        "Identified and fixed bugs and added new feature through 56 commits and pull requests by 'writing code' (!!USE BETTER WORDS)",
+        "Traverse through paginated API, collect responses, sort them and display them",
+        "Increase code coverage from 0% to 60% by initiated unit testing code with Jest",
+        "Increase API call speed by over 100% by making API calls asynchrnously in parallel",
+        "Deployed API written in Node with Express",
+        "Made OAuth authentication with GitHub API",
+        "Asynchronous HTTP requests",
+        "Deployed API with PM2 to 2 processes in cluster mode with a load balancer, with Nginx as the reverse proxy"
+      ]
+    },
+    {
+      "name": "Vaniquery (published on NPM)",
+      "organization": "Independent project",
+      "position": "Project leader",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "website": "https://www.npmjs.com/package/vaniquery",
+      "repository": "https://github.com/dongkskyler/vaniquery",
+      "summary": "CLI tool that converts jQuery to vanilla JavaScript, written in TypeScript.",
+      "highlights": [
+        "Automated the conversion of jQuery to vanilla JavaScript by utilizing regular expressions and abstract syntax trees (AST)",
+        "Increased code coverage 60% with Jest unit testing with mock data",
+        "Learned Promise and async/await",
+        "Learned regular expressions with ranges, capturing groups and backreferences.",
+        "Learned to write unit testing suite with Jest",
+        "Published the package to NPM"
+      ]
+    },
+    {
+      "name": "Intelli Trip Planner",
       "organization": "Badwater Bay",
       "position": "Project leader",
       "startDate": "2020-01-01",
       "endDate": "2020-01-01",
       "website": "https://badwaterbay.com/app/github-label-manager-plus/",
       "repository": "https://github.com/BadwaterBay/github-label-manager-plus",
-      "summary": "Web app that manages and migrates your GitHub labels and milestones.",
+      "summary": "RESTful API that intelligently recommends road trip routes, written in Python",
       "highlights": [
-        "Lead the development of the open-source web app.",
-        "Communicate with GitHub API via HTTP requests.",
-        "Style the web app with Bootstrap-Material-Design to achieve a responsive design."
+        "Led the development of the app",
+        "Identified and fixed bugs and added new feature through 56 commits and pull requests by 'writing code' (!!USE BETTER WORDS)",
+        "Increased code coverage from 0% to 90% by with unittest, with mock, patch and decorators",
+        "Coroutine and asynchronous",
+        "Asynchronous HTTP requests"
       ]
     },
     {
@@ -105,9 +146,11 @@
       "repository": "https://github.com/dongskyler/gen3.skylerdong.com",
       "summary": "Web app that manages and migrates your GitHub labels and milestones.",
       "highlights": [
-        "3rd generation: TypeScript Reactfront-end supported by Node/Express API back-end and MongoDB Atlas, implemented with a plug-in architecture.",
+        "3rd generation: TypeScript React front-end supported by Node/Express API back-end and MongoDB Atlas, implemented with a plug-in architecture.",
         "2nd generation: Responsive-design website utilizing a PHP back-end with a MySQL database and a front-end powered by JavaScript, Bootstrap and SCSS.",
-        "Optimize for SEO and track traffic with Google Analytics."
+        "Optimize for SEO and track traffic with Google Analytics.",
+        "Independently set up and maintain the server (running on CentOS 8) ",
+        "Communicate with the server via SSH and deploy code for production via Git Hook."
       ]
     },
     {
@@ -120,22 +163,9 @@
       "repository": "https://github.com/BadwaterBay/camera-trends",
       "summary": "Data scraping, analysis and visualization with Google trends, Python and D3.js",
       "highlights": [
+        "Developed Google trend scraping tool to ",
         "Scrape Google trend indices of 3 major camera brands with Python.",
         "Correlate annual revenues with Google trends and visualize the data with D3.js."
-      ]
-    },
-    {
-      "name": "Linus CentOS 8 web server",
-      "organization": "Independent project",
-      "position": "Project leader",
-      "startDate": "2020-01-01",
-      "endDate": "2020-01-01",
-      "website": "https://skylerdong.com/",
-      "repository": "",
-      "summary": "Up and running virtual private server on Google Cloud.",
-      "highlights": [
-        "Independently set up and maintain the server and DNS records.",
-        "Communicate with the server via SSH and deploy code for production via Git Hook."
       ]
     },
     {
@@ -148,7 +178,7 @@
       "repository": "",
       "summary": "Automated program installations via Bash script.",
       "highlights": [
-        "Automate program installations, development environment setups and system configurations with Bash script."
+        "Decreased the time needed for setting up development environments from >4 hours to 15 minutes by using this Bash script"
       ]
     }
   ],
@@ -206,7 +236,7 @@
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
-      "summary": "There is no spoon."
+      "summary": "Won first place out of 20 contestants in annual research symposium at Jackson School of Geosciences at UT-Austin by delivering the best poster presentation judged by a group of judges"
     }
   ],
   "publications": [
