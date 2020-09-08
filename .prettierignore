@@ -1,8 +1,7 @@
 # .prettierignore
 
 /node_modules
-/dist-server
 /build
-*.*cache
+.eslintcache
 LICENSE
 yarn.lock

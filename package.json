@@ -5,7 +5,7 @@
   "repository": "https://github.com/dongskyler/gen3.skylerdong.com.git",
   "author": "Skyler Dong <dongskyler@gmail.com>",
   "private": true,
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "scripts": {
     "ci": "yarn --frozen-lockfile",
     "format": "prettier './**/*.{js,jsx,ts,tsx,json,html,md,css,scss}' --write",
