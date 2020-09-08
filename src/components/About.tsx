@@ -24,13 +24,7 @@ class About extends Component<IfcStyles & IfcResumeBasics> {
   render() {
     const {
       classes,
-      basics: {
-        // name,
-        // email,
-        summary,
-        // location: { city, region },
-        resumeDownload,
-      },
+      basics: { summary, resumeDownload },
     } = this.props;
 
     return (
@@ -41,17 +35,6 @@ class About extends Component<IfcStyles & IfcResumeBasics> {
           </Grid>
           <Grid item xs={12} md={9}>
             <p>{summary}</p>
-            {/* <p>
-                <span>{name}</span>
-                <br />
-                <span>
-                  {city}, {region}
-                </span>
-                <br />
-                <span>
-                  <a href={`mailto:${email}`}>{email}</a>
-                </span>
-              </p> */}
             <Button
               variant="contained"
               href={resumeDownload}

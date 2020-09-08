@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   fab,
-  // faDocker,
   faGithub,
   faInstagram,
   faLinkedin,
@@ -15,7 +14,6 @@ import { IfcResumeBasics } from '../interfaces/IfcResumeBasics';
 
 library.add(
   fab,
-  // faDocker,
   faGithub,
   faInstagram,
   faLinkedin,
@@ -27,8 +25,7 @@ library.add(
 );
 
 class Footer extends Component<IfcResumeBasics> {
-  /** Get current year. */
-  getYear() {
+  getCurrentYear() {
     return new Date().getFullYear();
   }
 
@@ -60,7 +57,7 @@ class Footer extends Component<IfcResumeBasics> {
           <div>
             <ul className="profile-icons">{profileArray}</ul>
             <div className="copyright">
-              Copyright &copy; {this.getYear()} {name}.
+              Copyright &copy; {this.getCurrentYear()} {name}.
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
-# Working Repository for skylerdong.com
+# Working Repository for gen3.skylerdong.com
 
-Website: [https://skylerdong.com](https://skylerdong.com)
+Website: [https://gen3.skylerdong.com](https://gen3.skylerdong.com)
 
 Repository: [https://github.com/dongskyler/gen3.skylerdong.com](https://github.com/dongskyler/gen3.skylerdong.com)
 
@@ -29,7 +29,7 @@ Author: Skyler Dong (<dongskyler@gmail.com>)
 
 This is the active working repository for my personal website at [https://skylerdong.com](https://skylerdong.com).
 
-It is the 3rd generation of my personal websites. I&apos;m currently building it with [TypeScript](https://www.typescriptlang.org) [React](https://reactjs.org) and [Sass](https://sass-lang.com).
+It is the 3rd generation of my personal websites. I'm currently building it with [TypeScript](https://www.typescriptlang.org) [React](https://reactjs.org) and [Sass](https://sass-lang.com).
 
 Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose repository is [here](https://github.com/dongskyler/api.skylerdong.com).
 
@@ -40,7 +40,7 @@ Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose rep
 ### Continuous integration
 
 ![Node.js CI](https://github.com/dongskyler/skylerdong.com-gen3/workflows/Node.js%20CI/badge.svg)
-[![Build Status](https://travis-ci.org/dongskyler/gen3.skylerdong.com.svg?branch=master)](https://travis-ci.org/dongskyler/gen3.skylerdong.com)
+[![Build Status](https://travis-ci.org/dongskyler/gen3.skylerdong.com.svg?branch=main)](https://travis-ci.org/dongskyler/gen3.skylerdong.com)
 
 ### Code quality
 
@@ -58,7 +58,7 @@ Its back-end is supported by [api.skylerdong.com](api.skylerdong.com), whose rep
 
 ## Architecture
 
-![Architecture](https://raw.githubusercontent.com/dongskyler/api.skylerdong.com/master/doc/architecture_gen3.svg)
+![Architecture](https://raw.githubusercontent.com/dongskyler/api.skylerdong.com/main/doc/architecture_gen3.svg)
 
 ---
 
@@ -94,6 +94,6 @@ Airbnb JavaScript style.
 
 ## Copyright notice
 
-The code of the website is under MIT license.
+The code of the website is under 3-Clause BSD license.
 
 However, my photographs are not. It is always appreciated when you refer back to my website. However, all photographs appearing on my root domain and all subdomains are not to be downloaded or reproduced in any way without permission. If you intend to use my photographs by any means or purchase prints, you are welcome to contact me at [dongskyler@gmail.com](mailto:dongskyler@gmail.com). Thank you.

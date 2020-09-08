@@ -12,13 +12,6 @@ import Footer from './components/Footer';
 import resumeData from './data/resumeData.json';
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     resumeData: null,
-  //   };
-  // }
-
   componentDidMount() {
     /** Initialize Google Analytics. */
     ReactGA.initialize('UA-106597051-4', { testMode: true });
