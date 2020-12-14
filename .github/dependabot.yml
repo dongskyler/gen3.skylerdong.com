@@ -3,10 +3,9 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: weekly
-    day: "friday"
-    time: "18:00"
+    interval: daily
+    time: "00:00"
   rebase-strategy: "auto"
-  open-pull-requests-limit: 12
+  open-pull-requests-limit: 32
   reviewers:
   - dongskyler
