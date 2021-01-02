@@ -1,11 +1,14 @@
 version: 2
 updates:
 - package-ecosystem: npm
-  directory: "/"
+  directory: '/'
   schedule:
     interval: daily
-    time: "00:00"
-  rebase-strategy: "auto"
+    time: '00:00'
+    timezone: UTC
+  labels:
+    - dependencies
+  rebase-strategy: auto
   open-pull-requests-limit: 32
   reviewers:
-  - dongskyler
+    - dongskyler
