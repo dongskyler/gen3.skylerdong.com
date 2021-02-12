@@ -73,7 +73,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
-    "@babel/preset-typescript": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.16",
     "@testing-library/dom": "^7.29.0",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
